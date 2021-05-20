@@ -63,18 +63,23 @@ export default function Projects() {
                     color="textSecondary"
                     component="p"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    Developed a Netflix clone that allows users to review films 
+                    in the Netflix database including; Netflix originals, 
+                    trending, and top-rated films. The app was built using Node, 
+                    React JS, Redux, styled with CSS, and deployed with Firebase.
                   </Typography>
                 </CardContent>
               </CardActionArea>
 
               <CardActions>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"   
+                href="https://github.com/KatanaHaley/Netflix-Build"
+                target="_blank">
                   View Code
                 </Button>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                  href="https://netflix-clone-c660b.web.app/"
+                  target="_blank">
                   Explore App
                 </Button>
               </CardActions>
@@ -93,26 +98,33 @@ export default function Projects() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Astronomy App with NASA API
+                   Orvonton: Astronomy App with NASA API
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                   This app details our superuniverse Orvonton. It was built with React JS, CSS,
+                   and Windows PowerShell. It utilizes NASA's API providing daily automatic updates
+                   about the galaxy.
                   </Typography>
                 </CardContent>
               </CardActionArea>
 
               <CardActions>
-                <Button size="small" color="primary"
-                href="https://astronomy-app-e6dee.web.app/nasaphoto#">
+                <Button 
+                size="small" 
+                color="primary"
+                href="https://github.com/KatanaHaley/Orvonton"
+                target="_blank">
                   View Code
                 </Button>
-                <Button size="small" color="primary">
+                <Button 
+                size="small" 
+                color="primary"
+                href="https://astronomy-app-e6dee.web.app/"
+                target="_blank">
                   Explore App
                 </Button>
               </CardActions>
@@ -146,10 +158,14 @@ export default function Projects() {
               </CardActionArea>
 
               <CardActions>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" 
+                href="https://github.com/KatanaHaley/VideoChew"
+                target="_blank">
                   View Code
                 </Button>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                 href="https://videochew-b30cf.web.app/"
+                 target="_blank">
                   Explore App
                 </Button>
               </CardActions>
@@ -184,10 +200,15 @@ export default function Projects() {
               </CardActionArea>
 
               <CardActions>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                href="https://github.com/KatanaHaley/DecoderOfTheRings"
+                target="_blank"
+                >
                   View Code
                 </Button>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                 href="https://katanahaley.github.io/DecoderOfTheRings/"
+                 target="_blank">
                   Explore App
                 </Button>
               </CardActions>
@@ -222,19 +243,25 @@ export default function Projects() {
               </CardActionArea>
 
               <CardActions>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                href="https://github.com/KatanaHaley/CryptoPrice"
+                target="_blank"
+                >
                   View Code
                 </Button>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                href="https://trackcrypto.netlify.app/"
+                target="_blank"
+                >
                   Explore App
                 </Button>
               </CardActions>
             </Card>
           </Grid>
 
-          <Grid>
             {/* PROJECT SIX */}
-            <Card className={classes.root}>
+          {/*<Grid>
+             <Card className={classes.root}>
               <CardActionArea>
                 <CardMedia
                   component="img"
@@ -260,18 +287,23 @@ export default function Projects() {
               </CardActionArea>
 
               <CardActions>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"  
+                href="#"
+                target="_blank">
                   View Code
                 </Button>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                 href="#"
+                 target="_blank"
+                >
                   Explore App
                 </Button>
               </CardActions>
             </Card>
-          </Grid>
+          </Grid> */}
 
-          <Grid>
             {/* PROJECT SEVEN */}
+          {/* <Grid>
             <Card className={classes.root}>
               <CardActionArea>
                 <CardMedia
@@ -298,15 +330,21 @@ export default function Projects() {
               </CardActionArea>
 
               <CardActions>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                  href="https://github.com/KatanaHaley/CRUD-National-Parks/tree/main/starter-national-parks"
+                  target="_blank"
+                >
                   View Code
                 </Button>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                 href="#"
+                 target="_blank"
+                 >
                   Explore App
                 </Button>
               </CardActions>
             </Card>
-          </Grid>
+          </Grid> */}
 
           <Grid>
             {/* PROJECT EIGHT */}
@@ -339,7 +377,10 @@ export default function Projects() {
                 <Button size="small" color="primary">
                   View Code
                 </Button>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                href="https://necromancer.netlify.app/"
+                target="_blank"
+                >
                   Explore App
                 </Button>
               </CardActions>

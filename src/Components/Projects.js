@@ -13,7 +13,6 @@ import decoderringmay from './images/decoderringmay.png';
 import natlparks from './images/natlparks.png';
 import tiktokmay from './images/tiktokmay.png'
 import clickergame from './images/clickergame.png';
-import greenandorangemap from './images/greenandorangemap.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {

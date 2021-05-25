@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import logo from "./logo.svg";
+import woman from "./woman.svg";
+import notes from "./notes.svg";
+
 import { Counter } from "./features/counter/Counter";
 import "./App.css";
 // import ReactDOM from "react-dom";
@@ -19,7 +21,7 @@ import Stripe from "stripe";
 
 function App() {
   // const stripe = Stripe('pk_test_51IoCj3KngNA5hdnVbCIm6rkP9Jlq4WZKqBopNdhi39UxjanE3PQqQ4jeV8aCl8g9j9NZNXYuFhZAWDylmfjyLTwZ006BaL84aI');
-
+  const mail = 'mailto:katanahaley444@gmail.com';
   return (
     <BrowserRouter>
       <div className="App">
@@ -29,16 +31,24 @@ function App() {
           <h2>I'm Katana,</h2>
           <h2>full stack software engineer.</h2>
           <p>Front and backend development</p>
-          <ContactButton />
-          <img src={logo} className="App-logo" alt="logo" />
+          <ContactButton 
+          onClick={mail}
+          />
+          <br></br>
+          <img src={woman} className="App-logo" alt="logo" />
+          <div style={{ width: 800 }}>  
+
+
           <p>
-            I specialize in creating websites, applications, and technology
+            I specialize in creating websites, applications, custom software, and technology
             products that meet your goals and move your business forward. View
-            my work.{" "}
+            my work below.
           </p>
+          </div>
+          
           <About />
           <Projects />
-          <h2 id="products">Software as a Service (SaaS) Products</h2>
+          {/* <h2 id="products">Software as a Service (SaaS) Products</h2> */}
           {/* <Route component={Products} id="/Products" /> */}
           {/* <Packages /> */}
           {/* <div className="container">
@@ -46,12 +56,18 @@ function App() {
             <h3>On Sale - ${product.price}</h3>
           </div>
             <button>{checkoutButton}</button> */}
-          <StripeCheckout />
+            {/* The below StripeCheckout works */}
+          {/* <StripeCheckout /> */}
           {/* <Stripe /> */}
           <script src="https://js.stripe.com/v3/"></script>
           <div>
+            <h2>Got a great idea? Let's build it!🎉</h2>
+          <img src={notes} className="App-logo" alt="logo" />
+          <div style={{ width: 800 }}>  
+
             <ContactForm />
-            <Counter />
+            </div>
+            {/* <Counter /> */}
           </div>
         </header>
       </div>

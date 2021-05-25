@@ -26,26 +26,22 @@ function About() {
         <Grid container justify="center" spacing="0" id="section1">
           <p>
             I have a passion for developing both the back and front end of a
-            project.
-          </p>
-          <p>
-            I have experience working with *INSERT_EXPERIENCE* As a software
-            engineer and developer, I create bespoke websites and applications.
-          </p>
-          <p>
-            I build projects from the ground up. I've developed websites since
-            2008, continuously developing my skills.{" "}
-          </p>
-
-          <p>
+            project.</p>
+          
+        <p>
+            As a software engineer and developer, I've created a vast number of 
+            bespoke websites and applications. Contact me for my resume.
+          
+            I love building projects from the ground up! I've developed websites since
+            2008, continuously developing my skills.
+         </p>
+         <p>
             I'm thrilled about expanding my knowledge by learning new
             programming languages and technologies.
-          </p>
-          <p>
+          
             I enjoy collaborating on a team, developing projects with everyone's
             best and brightest thoughts and skills.
-          </p>
-          <p>
+         
             My services include; full-stack web development, application
             prototypes & builds, copywriting deliverables such as white papers,
             articles, and email campaigns.

@@ -62,7 +62,7 @@ export default function Projects() {
                     color="textSecondary"
                     component="p"
                   >
-                    Developed a Netflix clone that allows users to review films 
+                    I developed a Netflix clone that allows users to review films 
                     in the Netflix database including; Netflix originals, 
                     trending, and top-rated films. The app was built using Node, 
                     React JS, Redux, styled with CSS, and deployed with Firebase.
@@ -149,8 +149,10 @@ export default function Projects() {
                     color="textSecondary"
                     component="p"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
+                   Created a social media application utilizing React JS and Node. 
+                   It contains CSS, HTML, and Javascript languages. It utilizes Create, Read, 
+                   Update, and Delete functionality and is connected to Firebase’s Cloud 
+                   Firestore database in real-time. Users can follow and unfollow other users.
                     Antarctica
                   </Typography>
                 </CardContent>
@@ -191,9 +193,11 @@ export default function Projects() {
                     color="textSecondary"
                     component="p"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                   The Decoder Ring Project consists of three operating decoder ciphers; 
+                   Caesar, Polybius, and Substitution. The three ciphers use unique algorithms 
+                   to encode and decode messages. The project was developed with JavaScript, 
+                   HTML, and CSS. The message encoder allows you to write and decipher coded 
+                   messages or enhance an escape room challenge. 
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -234,9 +238,9 @@ export default function Projects() {
                     color="textSecondary"
                     component="p"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    For this project, I developed a production-level application with the CoinGecko API and 
+                    search functionality. This price-tracking app updates in real-time. 
+                    It was deployed with Netlify and subsequently attached to a custom domain.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -365,15 +369,16 @@ export default function Projects() {
                     color="textSecondary"
                     component="p"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+            The Necromancer game is a clickerstyle battle game built with the HTML5 Phaser game framework, Canvas, and WebGL.
                   </Typography>
                 </CardContent>
               </CardActionArea>
 
               <CardActions>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary"
+                href="https://github.com/KatanaHaley/Necromancer"
+                target="_blank"
+                >
                   View Code
                 </Button>
                 <Button size="small" color="primary"
@@ -386,8 +391,9 @@ export default function Projects() {
             </Card>
           </Grid>
 
-          <Grid>
+           
             {/* PROJECT NINE */}
+            {/*<Grid>
             <Card className={classes.root}>
               <CardActionArea>
                 <CardMedia
@@ -422,10 +428,10 @@ export default function Projects() {
                 </Button>
               </CardActions>
             </Card>
-          </Grid>
+          </Grid> */}
 
-          <Grid>
             {/* PROJECT TEN */}
+          {/* <Grid>
             <Card className={classes.root}>
               <CardActionArea>
                 <CardMedia
@@ -460,7 +466,7 @@ export default function Projects() {
                 </Button>
               </CardActions>
             </Card>
-          </Grid>
+          </Grid> */}
         </Grid>
       </Grid>
     </div>

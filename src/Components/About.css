@@ -1,11 +1,13 @@
 * .purple {
     background-color: blueviolet;
+    height: 700px;
 }
 
   .white{
     color: rgb(0, 0, 0)
 } 
 
-h2 {
-    color: rgb(0, 0, 0)
+h3 {
+    color: rgb(255, 255, 255)
 } 
+

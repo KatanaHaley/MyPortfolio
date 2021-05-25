@@ -88,3 +88,7 @@ h1,
 h3 {
 	text-align: center;
 }
+
+.wrap {
+  word-wrap: break-word;
+}

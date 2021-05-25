@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles({
   root: {
@@ -25,7 +26,10 @@ const useStyles = makeStyles({
 function MyButton(props) {
   const { color, ...other } = props;
   const classes = useStyles(props);
-  return <Button className={classes.root} {...other} />;
+  onclick="window.location.href='mailto:your@email.address'";
+  return <Button 
+  href={`mailto:katanahaley444@gmail.com`}
+  className={classes.root} {...other} />;
 }
 
 MyButton.propTypes = {
@@ -35,7 +39,9 @@ MyButton.propTypes = {
 export default function RedButton() {
   return (
     <React.Fragment>
-      <MyButton color="red">CONTACT ME</MyButton>
+      <MyButton 
+      color="red"      
+      >CONTACT ME</MyButton>
     </React.Fragment>
   );
 }

@@ -47,7 +47,7 @@ function Nav() {
                   Projects
                 </Link>
                 </li>
-                <li class="pointer">
+                {/* <li class="pointer">
                 <Link
                   activeClass="active"
                   spy={true}
@@ -58,7 +58,7 @@ function Nav() {
                 >
                   Products
                 </Link>
-                </li>
+                </li> */}
                 <li class="pointer">
                 <Link
                   activeClass="active"

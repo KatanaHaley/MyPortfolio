@@ -2,7 +2,6 @@
 import { BrowserRouter } from "react-router-dom";
 import woman from "./woman.svg";
 import notes from "./notes.svg";
-
 //import { Counter } from "./features/counter/Counter";
 import "./App.css";
 // import ReactDOM from "react-dom";
@@ -13,6 +12,7 @@ import ContactButton from "./Components/ContactButton";
 import About from "./Components/About";
 import Nav from "./Components/Nav";
 import ContactForm from "./Components/ContactForm";
+//import { Grid } from "@material-ui/core/";
 //import Products from "./Components/Products";
 // import { loadStripe } from "@stripe/stripe-js";
 // import { API_KEY } from "react-native-dotenv";
@@ -24,7 +24,9 @@ function App() {
   const mail = 'mailto:katanahaley444@gmail.com';
   return (
     <BrowserRouter>
+      {/* <Grid container justify="center" spacing="0" id="section1"> */}
       <div className="App">
+
         <header className="App-header" id="section1">
           <Nav />
           <h2>Hi,</h2>
@@ -36,9 +38,8 @@ function App() {
           />
           <br></br>
           <img src={woman} className="App-logo" alt="logo" />
-          <div style={{ width: 800 }}>  
-
-
+          <div style={{ flex: 1, flexWrap: 'wrap' }}>  
+          
           <p>
             I specialize in creating websites, applications, custom software, and technology
             products that meet your goals and move your business forward. View
@@ -59,18 +60,19 @@ function App() {
             {/* The below StripeCheckout works */}
           {/* <StripeCheckout /> */}
           {/* <Stripe /> */}
-          <script src="https://js.stripe.com/v3/"></script>
-          <div>
+          <div style={{ flex: 1, flexWrap: 'wrap' }}>  
             <h2>Got a great idea? Let's build it!🎉</h2>
           <img src={notes} className="App-logo" alt="logo" />
-          <div style={{ width: 800 }}>  
+            </div>
+          <div style={{ flex: 1, flexWrap: 'wrap' }}>  
 
             <ContactForm />
-            </div>
             {/* <Counter /> */}
           </div>
         </header>
       </div>
+      {/* </Grid> */}
+      <script src="https://js.stripe.com/v3/"></script>
     </BrowserRouter>
   );
 }

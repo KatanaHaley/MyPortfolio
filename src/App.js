@@ -3,7 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import woman from "./woman.svg";
 import notes from "./notes.svg";
 
-import { Counter } from "./features/counter/Counter";
+//import { Counter } from "./features/counter/Counter";
 import "./App.css";
 // import ReactDOM from "react-dom";
 // import { makeStyles } from "@material-ui/core/styles";
@@ -14,10 +14,10 @@ import About from "./Components/About";
 import Nav from "./Components/Nav";
 import ContactForm from "./Components/ContactForm";
 //import Products from "./Components/Products";
-import { loadStripe } from "@stripe/stripe-js";
-import { API_KEY } from "react-native-dotenv";
-import StripeCheckout from "react-stripe-checkout";
-import Stripe from "stripe";
+// import { loadStripe } from "@stripe/stripe-js";
+// import { API_KEY } from "react-native-dotenv";
+// import StripeCheckout from "react-stripe-checkout";
+// import Stripe from "stripe";
 
 function App() {
   // const stripe = Stripe('pk_test_51IoCj3KngNA5hdnVbCIm6rkP9Jlq4WZKqBopNdhi39UxjanE3PQqQ4jeV8aCl8g9j9NZNXYuFhZAWDylmfjyLTwZ006BaL84aI');

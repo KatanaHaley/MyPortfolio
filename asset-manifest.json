@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.4263e5bb.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.2f89ad0f.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.2f89ad0f.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.d464c3c6.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.d464c3c6.js.map",
+    "static/js/2.33c3935b.chunk.js": "/MyPortfolio/static/js/2.33c3935b.chunk.js",
+    "static/js/2.33c3935b.chunk.js.map": "/MyPortfolio/static/js/2.33c3935b.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "static/css/main.4263e5bb.chunk.css.map": "/MyPortfolio/static/css/main.4263e5bb.chunk.css.map",
+    "static/js/2.33c3935b.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.33c3935b.chunk.js.LICENSE.txt",
+    "static/media/clickergame.5f99d2c2.png": "/MyPortfolio/static/media/clickergame.5f99d2c2.png",
+    "static/media/cryptotrackermay.f7e33aec.png": "/MyPortfolio/static/media/cryptotrackermay.f7e33aec.png",
+    "static/media/decoderringmay.a3ecca11.png": "/MyPortfolio/static/media/decoderringmay.a3ecca11.png",
+    "static/media/medium.56fad91c.jpg": "/MyPortfolio/static/media/medium.56fad91c.jpg",
+    "static/media/natlparks.d3c51eb6.png": "/MyPortfolio/static/media/natlparks.d3c51eb6.png",
+    "static/media/netflixmay.ac0a2648.png": "/MyPortfolio/static/media/netflixmay.ac0a2648.png",
+    "static/media/notes.95986e32.svg": "/MyPortfolio/static/media/notes.95986e32.svg",
+    "static/media/spacecadetmay.ee208fd6.png": "/MyPortfolio/static/media/spacecadetmay.ee208fd6.png",
+    "static/media/tiktokmay.362827fd.png": "/MyPortfolio/static/media/tiktokmay.362827fd.png",
+    "static/media/woman.0b8a4e38.svg": "/MyPortfolio/static/media/woman.0b8a4e38.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d464c3c6.js",
+    "static/js/2.33c3935b.chunk.js",
+    "static/css/main.4263e5bb.chunk.css",
+    "static/js/main.2f89ad0f.chunk.js"
+  ]
+}

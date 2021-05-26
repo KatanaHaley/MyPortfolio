@@ -10,7 +10,7 @@ function Nav() {
       <div id="nav">
         <header>
           <nav>
-            <ul>
+            <ul style={scroll}>
               <li class="pointer">
                 <Link
                   activeClass="active"
@@ -71,6 +71,7 @@ function Nav() {
                   Contact
                 </Link>
                 </li>
+                
                 </ul>
           </nav>
         </header>

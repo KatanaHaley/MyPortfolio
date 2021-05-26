@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+//import React, { useState, useEffect } from "react";
+import { BrowserRouter } from "react-router-dom";
 import woman from "./woman.svg";
 import notes from "./notes.svg";
 

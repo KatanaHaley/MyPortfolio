@@ -10,7 +10,7 @@ import spacecadetmay from './images/spacecadetmay.png';
 import cryptotrackermay from './images/cryptotrackermay.png';
 //import renderingdecks from './images/renderingdecks.png';
 import decoderringmay from './images/decoderringmay.png';
-import natlparks from './images/natlparks.png';
+//import natlparks from './images/natlparks.png';
 import tiktokmay from './images/tiktokmay.png'
 import clickergame from './images/clickergame.png';
 

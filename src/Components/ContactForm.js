@@ -21,7 +21,7 @@ function ContactForm() {
               <input name="name" placeholder="Name:"/>
             </label>
             <label>
-              <input name="email" input type="text" name="_replyto" placeholder="Email:"/>
+              <input name="email" input type="text" placeholder="Email:"/>
             </label>
           </div>
           <div class="container">
@@ -41,9 +41,9 @@ function ContactForm() {
       </form>
       <br></br>
       <div>
-      <a href="https://github.com/katanahaley" a target="_blank"><img src={GitHubMark} alt="GitHub logo" width="50" height="50"></img></a>
-      <a href="https://www.linkedin.com/in/katana-haley/" a target="_blank"><img src={linkedin} alt="LinkedIn logo" width="50" height="50"></img></a>
-      <a href="https://medium.com/@haleykatana" a target="_blank"><img src={medium} alt="Medium logo" width="50" height="50"></img></a>
+      <a href="https://github.com/katanahaley" a target="_blank" rel="noreferrer"><img src={GitHubMark} alt="GitHub logo" width="50" height="50"></img></a>
+      <a href="https://www.linkedin.com/in/katana-haley/" a target="_blank" rel="noreferrer"><img src={linkedin} alt="LinkedIn logo" width="50" height="50"></img></a>
+      <a href="https://medium.com/@haleykatana" a target="_blank" rel="noreferrer"><img src={medium} alt="Medium logo" width="50" height="50"></img></a>
       </div>
     </div>
   );
